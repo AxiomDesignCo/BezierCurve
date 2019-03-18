@@ -1,0 +1,32 @@
+.train {
+  position: relative;
+  cursor: pointer;
+  width: 177px;
+  height: 160px;
+  left: 0px;
+
+/*
+
+It's all about the transition property in CSS!
+
+In transition-property we write a list of property to animate, for instance: left, margin-left, height, color.
+
+Not all properties can be animated, but many of them. The value all means “animate all properties”.
+
+transition-duration
+In transition-duration we can specify how long the animation should take. The time should be in CSS time format: in seconds s or milliseconds ms.
+
+transition-timing-function
+Timing function describes how the animation process is distributed along the time. Will it start slowly and then go fast or vise versa.
+
+That’s the most complicated property from the first sight. But it becomes very simple if we devote a bit time to it.
+
+That property accepts two kinds of values: a Bezier curve or steps. Let’s start from the curve, as it’s used more often.
+
+is a parametric curve used in computer graphics and related fields.[1] The curve, which is related to the Bernstein polynomial, is named after Pierre Bézier, who used it in the 1960s for designing curves for the bodywork of Renault cars.[2] Other uses include the design of computer fonts and animation.[2] Bézier curves can be combined to form a Bézier spline, or generalized to higher dimensions to form Bézier surfaces.[2] The Bézier triangle is a special case of the latter.
+
+
+*/
+
+  transition: left 5s cubic-bezier(0.0, 0.5, 0.5, 1.0);
+}
